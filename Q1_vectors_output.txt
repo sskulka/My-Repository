@@ -1,0 +1,37 @@
+Microsoft Windows [Version 10.0.19042.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug>C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug\Project1.exe
+The system cannot execute the specified program.
+
+C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug>C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug\Project1.exe
+Input operation: a
+First Name: shubhankar
+Last Name: kulkarni
+ID: 1
+GPA: 4
+Input operation: a
+First Name: harshal
+Last Name: varpe
+ID: 2
+GPA: 4
+Input operation: shubham
+Input operation: thorat
+Input operation: a
+First Name: shubham
+Last Name: thorat
+ID: 3
+GPA: 4
+Input operation: print
+shubhankar kulkarni, 1, 4
+harshal varpe, 2, 4
+shubham thorat, 3, 4
+Input operation: d
+ID of student to delete: 2
+ID to delete: 2
+Input operation: p
+shubhankar kulkarni, 1, 4
+shubham thorat, 3, 4
+Input operation: QUIT
+
+C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug>

@@ -1,0 +1,13 @@
+Microsoft Windows [Version 10.0.19042.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug>C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug\Project1.exe
+Please input something with punctuation in it: hello!..I'm Shubhankar
+Modify and Copy:
+Original: hello!..I'm Shubhankar
+Modified: helloImShubhankar
+Modify in Place:
+Original: hello!..I'm Shubhankar
+Modified: helloImShubhankar
+
+C:\CUICAR\AuE8930\HW\HW_2\Project1\Debug>
