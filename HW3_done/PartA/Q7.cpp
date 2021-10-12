@@ -41,7 +41,9 @@ vector<int> FindSum(node* node, int& sum, int parentVal)
         vector<int>vRightChild = FindSum(node->right, sum, node->data);
 
         //comparing equality of left and right child vectors
-        bool result = std::equal(vLeftChild.begin(), vLeftChild.end(), vRightChild.begin());
+        bool result = false;
+        if(vLeftChild.size()== vRightChild.size())
+            result = std::equal(vLeftChild.begin(), vLeftChild.end(), vRightChild.begin());
 
         //if both vectors are equal. Can happen for a leaf node
         if (result) {
@@ -77,13 +79,20 @@ vector<int> FindSum(node* node, int& sum, int parentVal)
 
 int main()
 {
-    node* root = newNode(3);
-    int iSum = 30;
+    getchar();
+    node* root = newNode(5);
+    int iSum = 22;
     int iZero = 0;
-    root->left = newNode(9);
-    root->right = newNode(20);
-    root->right->left = newNode(15);
-    root->right->right = newNode(7);
+    root->left = newNode(4);
+    root->left->left = newNode(11);
+    //root->left->right = newNode(0);
+    root->left->left->left = newNode(7);
+    root->left->left->right = newNode(2);
+    root->right = newNode(8);
+    root->right->left = newNode(13);
+    //root->right->left->left = newNode(0);
+    root->right->left->right = newNode(1);
+    root->right->right = newNode(4);
 
     //Calling function on the root node
     vector<int> vSoln = FindSum(root, iSum, root->data);
